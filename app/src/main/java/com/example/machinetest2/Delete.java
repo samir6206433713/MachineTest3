@@ -15,6 +15,8 @@ public class Delete extends AppCompatActivity {
     Button submit;
     private DBHelper mydb;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

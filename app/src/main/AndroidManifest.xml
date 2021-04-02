@@ -14,16 +14,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MachineTest2">
-        <activity android:name=".MainActivity"></activity>
+        <!--<activity android:name="com.example.machinetestredapple.Registration"></activity>-->
+        <activity android:name=".MainActivity" />
         <activity android:name=".Delete" />
         <activity android:name=".Update" />
         <activity android:name=".MapsActivity" />
 
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key" />
-        <activity android:name=".SplashScreen">
+
+        <activity android:name="com.example.machinetestredapple.Registration">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

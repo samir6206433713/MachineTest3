@@ -48,6 +48,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
+        float a;
+        String aa="2.0";
+
+        a= Float.parseFloat(aa);
+
+        String sa="as";
+        int bb= Integer.parseInt(sa);
+
+
 
         Bundle bundle = getIntent().getExtras();
          lati = bundle.getString("la");
